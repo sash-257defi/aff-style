@@ -1,6 +1,6 @@
 /* defaults */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,vietnamese,cyrillic-ext,latin-ext,cyrillic);
-
+@import url(https://academy.binary.com/css/grid.min.css);
 body {
 	font-family: Roboto, Helvetica, Arial, sans-serif !important;
 	font-size: 16px;
