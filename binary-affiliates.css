@@ -173,7 +173,11 @@ ul.bullet li {
 .login_links a {
     color: #2A3052;
     text-decoration: none;
-    font-weight: bold
+    font-weight: bold;
+}
+
+.login_links a:hover {
+    text-decoration: underline;
 }
 
 #userSummary ul li {
