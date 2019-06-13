@@ -186,4 +186,5 @@ ul.bullet li {
 
 #aside .section h1, #aside .notes h1 {
     color: #2a3052;
+    text-transform: none;
 }
