@@ -11,16 +11,16 @@ body {
 
 .h1, h1 { 
 	font-family: "Roboto", Helvetica, Arial, sans-serif; 
-	font-weight:300; 
-	font-size: 36px; 
-	color: #E98024;
+	font-weight:300 !important; 
+	font-size: 36px !important; 
+	color: #E98024 !important;
 	Margin-bottom: 18px;
 }
 .h2, h2, h2 a { 
 	font-family: "Roboto", Helvetica, Arial, sans-serif; 
-	font-weight:300; 
-	font-size: 28px; 
-	color: #E98024;
+	font-weight:300 !important; 
+	font-size: 28px !important; 
+	color: #E98024 !important;
 	Margin-bottom: 10px;
 }
 .h3, h3, h3 a { 
@@ -214,25 +214,25 @@ ul.bullet li {
 }
 
 .login_links a {
-    color: #2A3052;
+    color: #2A3052 !important;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .login_links a:hover {
-    color: #2A3052;
+    color: #2A3052 !important;
     text-decoration: underline;
 }
 
 #userSummary ul li {
     color: #ffffff !important;
-    font-weight: 14px;
+    font-weight: 14px !important;
 }
 
 /* colors */
 #aside .nav .section li:hover {
     background: #2a3052;
-    color: #fff;
+    color: #ffffff;
 }
 
 #aside .nav .section li.selected {
