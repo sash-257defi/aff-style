@@ -175,3 +175,7 @@ ul.bullet li {
 }
 
 /* colors */
+#aside .nav .section li:hover {
+    background: #2a3052;
+    color: #fff;
+}
