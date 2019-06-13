@@ -224,7 +224,7 @@ ul.bullet li {
     background: #2a3052;
 }
 
-#aside .section h1, #aside .notes h1 {
+#aside .section h1, #aside .notes h1, #aside .section h2 {
     color: #2a3052;
     text-transform: none;
 }
