@@ -179,3 +179,7 @@ ul.bullet li {
     background: #2a3052;
     color: #fff;
 }
+
+#aside .nav .section li.selected {
+    background: #2a3052;
+}
