@@ -1,11 +1,5 @@
 /* defaults */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,vietnamese,cyrillic-ext,latin-ext,cyrillic);
-@import url(https://style.binary.com/binary.css);
-
-body {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-size: 0.9em;
-}
 
 body {
 	font-family: Roboto, Helvetica, Arial, sans-serif;
