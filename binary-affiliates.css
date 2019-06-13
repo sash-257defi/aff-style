@@ -154,14 +154,6 @@ button:hover, .button:hover, input[type=submit]:hover {
     margin: 0;
 }
 
-#nav ul li:first-child, #nav ul li:first-child a {
-
-}
-
-#nav ul li:last-child, #nav ul li:last-child a {
-
-}
-
 #nav ul li a {
     display: block;    
     min-width: 60px;
@@ -182,9 +174,6 @@ button:hover, .button:hover, input[type=submit]:hover {
 #nav ul li:hover a {
     color: #ffffff;
     background: #e98024;
-}
-
-#nav ul li.selected.plan a {
 }
 
 #nav ul li a:hover {
@@ -237,6 +226,7 @@ ul.bullet li {
 
 #userSummary ul li {
     color: #ffffff !important;
+    font-weight: 14px;
 }
 
 /* colors */
