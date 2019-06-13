@@ -183,3 +183,7 @@ ul.bullet li {
 #aside .nav .section li.selected {
     background: #2a3052;
 }
+
+#aside .section h1, #aside .notes h1 {
+    color: #2a3052;
+}
