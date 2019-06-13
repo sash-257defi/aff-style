@@ -173,3 +173,31 @@ ul.bullet li {
 #userSummary ul li {
     color: #ffffff !important;
 }
+
+/* colors */
+#aside .nav .section li:hover {
+    background: #2a3052;
+    color: #fff;
+}
+
+#aside .nav .section li.selected {
+    background: #2a3052;
+}
+
+#aside .section h1,
+#aside .notes h1 {
+    color: #2a3052;
+    margin: 0;
+    padding: 0;
+}
+
+.ticketList .ticketItem.status_resolved .subject {
+    background-color: #2a3052;
+}
+
+.ticketList .status_resolved.new .subject,
+.ticket.status_resolved.new .subject {
+    border-color: #2a3052;
+    background-color: #BCDEFF;
+
+}
