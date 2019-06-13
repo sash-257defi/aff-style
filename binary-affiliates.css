@@ -85,6 +85,70 @@ body {
     text-align: right; display: inline; 
 }
 
+#nav{
+    background: #2a3052;
+}
+
+#nav ul {
+    white-space: nowrap;
+    height: 31px;
+    z-index: 1;
+    position: relative;
+}
+
+#nav ul li {
+    margin: 0;
+}
+
+#nav ul li:first-child, #nav ul li:first-child a {
+
+}
+
+#nav ul li:last-child, #nav ul li:last-child a {
+
+}
+
+#nav ul li a {
+    display: block;    
+    min-width: 60px;
+    padding: 14px 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+#nav ul li.selected a {
+    color: #ffffff;
+    background: #e98024;
+}
+
+#nav ul li a:hover,
+#nav ul li:hover a {
+    color: #ffffff;
+    background: #e98024;
+}
+
+#nav ul li.selected.plan a {
+}
+
+#nav ul li a:hover {
+    color: #ffffff;
+}
+
+.arrow-down {
+    display: none;
+}
+
+#nav ul li.selected div {
+    border-top: 12px solid #67A6BA;
+}
+
+#nav ul li:hover div {
+    border-top: 12px solid #A4CAD6;
+}
+
 .bottom-20 {
     margin-bottom: 20px;
 }
