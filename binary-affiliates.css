@@ -127,6 +127,8 @@ button:hover, .button:hover, input[type=submit]:hover {
 #nav{
     background: #2a3052;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #nav ul {
