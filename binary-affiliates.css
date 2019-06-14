@@ -196,6 +196,59 @@ ul.bullet {
 ul.bullet li {
     list-style-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='18px' height='18px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath fill='%23e98024' d='M12,17.5A5.5,5.5,0,1,1,17.5,12,5.507,5.507,0,0,1,12,17.5Zm0-9A3.5,3.5,0,1,0,15.5,12,3.5,3.5,0,0,0,12,8.5Z'/%3E%3C/svg%3E")
 }
+#MainNav {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+#MainNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#MainNav ul li {
+    display: inline-block;
+    padding: 0;
+    margin: -3px;
+    margin-bottom: -2px;
+    font-size: 18px;
+    border-bottom: solid 3px transparent;
+    text-align: center;
+}
+
+#MainNav ul li a {
+    padding: 5px 35px;
+    display: block;
+    font-weight: 400;
+}
+
+#MainNav ul .selected {
+    border-bottom: solid 3px #2a3052;
+}
+
+#MainNav ul li:hover {
+    border-bottom: solid 3px #2a3052;
+    text-decoration: none;
+}
+
+#MainNav ul li a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    #MainNav ul li {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}
 
 #page_login{
     background-image: none;
