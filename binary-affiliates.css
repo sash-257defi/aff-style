@@ -200,8 +200,9 @@ ul.bullet li {
 
 .login {
     text-align: center;
-    width: 480px;
+    width: 380px;
     max-width: 100%;
+    box-shadow: none;
 }
 
 .login div {
