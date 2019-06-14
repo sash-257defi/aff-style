@@ -230,16 +230,13 @@ input:hover, input:focus {
 }
 
 .loginLinks {
-    width: 480px;
-    max-width: 100%;
-    background-color: #f2f2f2;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
 .loginLinks p {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -277,6 +274,10 @@ input:hover, input:focus {
 
 .ticketList .ticketItem.status_resolved .subject {
     background-color: #2a3052;
+}
+
+.copyrights {
+    font-size: 10px !important;
 }
 
 /*!
