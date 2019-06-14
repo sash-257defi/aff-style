@@ -23,7 +23,7 @@ body {
 }
 
 .aside .section h1 {
-    font-size: 22px;
+    font-size: 22px !important;
 }
 
 button, .button, input[type=submit] {
