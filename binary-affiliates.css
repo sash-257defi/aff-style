@@ -244,14 +244,14 @@ input:hover, input:focus {
     text-align: center;
 }
 
-.loginLinks a {
+.loginLinks a, .home-table-links a {
     color: #2A3052 !important;
     text-decoration: none;
     font-weight: bold !important;
     text-align: center;
 }
 
-.loginLinks a:hover {
+.loginLinks a:hover, .home-table-links a:hover {
     color: #2A3052 !important;
     text-decoration: underline;
 }
