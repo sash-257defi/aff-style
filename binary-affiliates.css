@@ -230,6 +230,7 @@ input:hover, input:focus {
 }
 
 .loginLinks {
+    width: 480px;
     max-width: 100%;
     background-color: #f2f2f2;
     margin-left: auto;
