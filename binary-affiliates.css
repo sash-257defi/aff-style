@@ -203,7 +203,6 @@ ul.bullet li {
     width: 380px;
     max-width: 100%;
     box-shadow: none;
-    box-sizing: border-box;
 }
 
 .login div {
@@ -213,6 +212,7 @@ ul.bullet li {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
 }
 
 .form-input input {
