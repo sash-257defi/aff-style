@@ -220,7 +220,7 @@ ul.bullet li {
 }
 
 input:hover, input:focus {
-    border-color: #2A3052;
+    border-color: #2A3052 !important;
 }
 
 .login-btn button {
@@ -230,8 +230,10 @@ input:hover, input:focus {
 }
 
 .loginLinks {
-    width: 100%;
+    max-width: 100%;
     background-color: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .loginLinks a {
