@@ -195,7 +195,7 @@ ul.bullet li {
 
 #page_login{
     background-image: none;
-    background-color: #ffffff;    
+    background-color: #ffffff;   
 }
 
 .login {
@@ -208,7 +208,7 @@ ul.bullet li {
 .login div {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 5px 10px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -222,12 +222,18 @@ ul.bullet li {
 .login-btn button {
     display: block;
     width: 100%;
+    margin-top: 20px;
+}
+
+.loginLinks {
+    width: 100%; 
 }
 
 .loginLinks a {
     color: #2A3052 !important;
     text-decoration: none;
     font-weight: bold !important;
+    text-align: center;
 }
 
 .loginLinks a:hover {
