@@ -235,10 +235,11 @@ input:hover, input:focus {
     background-color: #f2f2f2;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
-.loginLinks li {
-    margin: 0;
+.loginLinks p {
+    padding: 15px;
     text-align: center;
 }
 
