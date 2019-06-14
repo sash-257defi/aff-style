@@ -218,6 +218,7 @@ ul.bullet li {
 .form-input input {
     width: 100%;
     text-align: center;
+    box-sizing: border-box;
 }
 
 input:hover, input:focus {
