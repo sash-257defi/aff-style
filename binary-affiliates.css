@@ -22,6 +22,10 @@ body {
 	color: #E98024 !important;
 }
 
+.aside .section h1 {
+    font-size: 22px;
+}
+
 button, .button, input[type=submit] {
     display: inline-block;
     text-align: center;
