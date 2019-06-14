@@ -276,7 +276,7 @@ input:hover, input:focus {
     background-color: #2a3052;
 }
 
-.copyrights {
+.copyrights p {
     font-size: 10px !important;
 }
 
