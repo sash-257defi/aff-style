@@ -126,7 +126,6 @@ button:hover, .button:hover, input[type=submit]:hover {
 
 #nav{
     background: #2a3052;
-    text-align: center;
 }
 
 #nav ul {
@@ -142,6 +141,7 @@ button:hover, .button:hover, input[type=submit]:hover {
 
 #nav ul li {
     margin: 0;
+    float: none;
 }
 
 #nav ul li a {
