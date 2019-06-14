@@ -126,9 +126,6 @@ button:hover, .button:hover, input[type=submit]:hover {
 
 .brand-header-content {
     text-align: right;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
 }
 
 .brand-user {
