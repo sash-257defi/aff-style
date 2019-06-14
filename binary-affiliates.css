@@ -198,6 +198,22 @@ ul.bullet li {
     background-color: #ffffff;    
 }
 
+.login {
+    text-align: center;
+}
+
+.login div {
+    display: block;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+}
+
+.login-btn button {
+    display: block;
+    width: 100%;
+}
+
 .loginLinks a {
     color: #2A3052 !important;
     text-decoration: none;
