@@ -200,13 +200,19 @@ ul.bullet li {
 
 .login {
     text-align: center;
+    width: 480px;
+    max-width: 100%;
 }
 
 .login div {
     display: block;
     width: 100%;
-    margin: 5px;
+    margin: 10px;
     text-align: center;
+}
+
+.form-input input[type=text] {
+    width: 100%;
 }
 
 .login-btn button {
