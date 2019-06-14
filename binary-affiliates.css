@@ -236,6 +236,11 @@ input:hover, input:focus {
     margin-right: auto;
 }
 
+.loginLinks li {
+    margin: 0;
+    text-align: center;
+}
+
 .loginLinks a {
     color: #2A3052 !important;
     text-decoration: none;
