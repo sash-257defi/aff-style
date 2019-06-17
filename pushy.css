@@ -254,7 +254,7 @@
   }
   .pushy-header {
     padding: 20px;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     background-color: #2A3052;
     color: #ffffff;
@@ -264,6 +264,9 @@
       color: #ffffff;
   }
   .pushy-header #userSummary ul li {
+      color: #ffffff;
+  }
+  .pushy-header .brand-user a {
       color: #ffffff;
   }
   .pushy-header #langSelect {
