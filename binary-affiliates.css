@@ -53,7 +53,7 @@ button:hover, .button:hover, input[type=submit]:hover {
 .binary-header {
     border-top: 2px solid #2A3052;
     border-bottom: 4px solid #E98024;
-    background: #2A3052;
+    background-color: #2A3052;
 	color: #ffffff;
 }
 
