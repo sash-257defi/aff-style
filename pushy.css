@@ -254,8 +254,11 @@
     font-size: 14px;
     text-align: center;
     background-color: #2A3052;
-    color: #222222;
+    color: #ffffff;
     border-bottom: 1px solid #dedede;
+  }
+  .pushy-header a {
+      color: #ffffff !important;
   }
   .stack-separator {
     height: 120px;
