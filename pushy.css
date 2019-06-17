@@ -1,3 +1,5 @@
+/* Pushy */
+
 /*! Pushy - v1.1.0 - 2017-1-30
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
 * https://github.com/christophery/pushy/
@@ -213,24 +215,26 @@
     -ms-transform: translateY(-50%) rotate(90deg);
     transform: translateY(-50%) rotate(90deg);
   }
-  .menu-btn {
+  .pushy-menu-btn {
     font-size: 20px;
     font-weight: 500;
     color: #ffffff;
-    text-shadow: 0px 0px 1px #AD6700;
+    text-shadow: 0px 0px 1px #000000;
     background-color: transparent;
     outline: none;
     border: 0;
     cursor: pointer;
+    float: right;
+    margin: 0;
   }
-  .menu-btn:hover {
+  .pushy-menu-btn:hover {
     color: #ffffff;
   }
   .btn:focus, button:focus {
     outline: none;
     border: none;
   }
-  .menu-btn img {
+  .pushy-menu-btn img {
     width: 30px;
     max-width: 30px;
     margin-top: 0px;
@@ -242,6 +246,7 @@
     display: none;
     z-index: 9990;
     padding: 15px 10px;
+    background-color: #2A3052;
   }
   .mobile-logo{
     position: fixed;
@@ -273,15 +278,19 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #333333;
+    color: #222222;
     border-bottom: 1px solid #dedede;
   }
   .stack-separator {
     height: 70px;
     display: none;
   }
-  @media screen and (max-width: 990px) {
-    .d-nav, .footer--nav {
+  .shadow {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  @media screen and (max-width: 768px) {
+    #MainNav, .binary-header {
       display: none;
     }
     .header-stack, .stack-separator {
