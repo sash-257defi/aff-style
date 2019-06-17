@@ -280,8 +280,8 @@
     height: 70px;
     display: none;
   }
-  @media screen and (max-width: 990px) {
-    .d-nav, .footer--nav {
+  @media screen and (max-width: 768px) {
+    #MainNav {
       display: none;
     }
     .header-stack, .stack-separator {
