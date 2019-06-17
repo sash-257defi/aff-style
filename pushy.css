@@ -263,7 +263,7 @@
   .pushy-header a {
       color: #ffffff;
   }
-  .pushy-header #userSummary ul li {
+  .pushy-header #userSummary ul li a {
       color: #ffffff;
   }
   .pushy-header .brand-user a {
