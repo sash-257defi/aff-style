@@ -47,7 +47,7 @@ button, .button, input[type=submit] {
 }
 
 button:hover, .button:hover, input[type=submit]:hover {
-    background-color: #14602B !important;
+    background-color: #14602B;
 }
 
 .binary-header {
