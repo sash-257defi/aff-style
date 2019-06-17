@@ -260,6 +260,9 @@
   .pushy-header a {
       color: #ffffff !important;
   }
+  .pushy-header #langSelect {
+      margin: 30px 0;
+  }
   .stack-separator {
     height: 120px;
     display: none;
