@@ -135,6 +135,11 @@ button:hover, .button:hover, input[type=submit]:hover {
     text-align: right;
 }
 
+#userSummary ul li {
+    color: #ffffff;
+    font-size: 13px;
+}
+
 #langSelect {
     margin: 0;
 }
@@ -330,11 +335,6 @@ input:hover, input:focus {
 .loginLinks a:hover, .home-table-links a:hover {
     color: #2A3052 !important;
     text-decoration: underline;
-}
-
-#userSummary ul li {
-    color: #ffffff;
-    font-size: 13px;
 }
 
 /* colors */
