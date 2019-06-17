@@ -1,0 +1,65 @@
+<!-- Pushy Menu -->
+<nav class="pushy pushy-left shadow">
+    <div class="pushy-content">
+			<div class="pushy-header orange-bg-color">
+				<img src="{{ '/assets/images/cg-1.png' | prepend: domain }}" alt="">
+				<p class="centered font-s"></p>
+				<div class="top--bar-language">
+					<ul>
+						<li class="centered {% if siteLang == 'en' %}hidden{% endif %}"><a href="{{ '/' | prepend: domain }}">English</a></li>
+						<li class="centered {% if siteLang == 'ru' %}hidden{% endif %}"><a href="{{ '/ru/' | prepend: domain }}">Русский</a></li>
+					</ul>
+				</div>
+			</div>
+        <ul class="pushy-main">
+			<li class="pushy-link"><a href="{{ page.url | prepend: domain }}">{{ page.title }}</a></li>
+		</ul>
+    </div>
+</nav>
+<div class="stack-separator"></div>
+<!-- Site Overlay -->
+<div class="site-overlay"></div>
+<div class="d-nav">
+	<div class="top--bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<div class="top--bar-language">
+						<ul>
+							<li class="{% if siteLang == 'en' %}hidden{% endif %}"><a href="{{ '/' | prepend: domain }}">English</a></li>
+							<li class="{% if siteLang == 'ru' %}hidden{% endif %}"><a href="{{ '/ru/' | prepend: domain }}">Русский</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>	
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="logo">
+						<img src="" alt="">
+					</div>    
+				</div>
+				<div class="col-lg-9">
+					<ul class="">
+					{% include navs/navigation.html %}
+					</ul>				
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+<div class="header-stack primary-bg-color shadow">
+	<div class="container-fluid">
+		<div class="row align-items-center">
+			<div class="col-8">
+				<a href="{{ '/' | prepend: SourceUrl }}"><img class="mobile-logo shadow" src="" alt="" title=""></a>
+			</div>
+			<div class="col-4 text-right">
+				<button type="button" class="menu-btn"><img src="{{ '/assets/images/menu.svg' | prepend: SourceUrl }}" width="30" alt=""></button>
+			</div>
+		</div>
+	</div>
+</div>
