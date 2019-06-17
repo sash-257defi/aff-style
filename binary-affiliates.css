@@ -577,7 +577,7 @@ input:hover, input:focus {
     -ms-transform: translateY(-50%) rotate(90deg);
     transform: translateY(-50%) rotate(90deg);
   }
-  .menu-btn {
+  .pushy-menu-btn {
     font-size: 20px;
     font-weight: 500;
     color: #ffffff;
@@ -589,14 +589,14 @@ input:hover, input:focus {
     float: right;
     margin: 0;
   }
-  .menu-btn:hover {
+  .pushy-menu-btn:hover {
     color: #ffffff;
   }
   .btn:focus, button:focus {
     outline: none;
     border: none;
   }
-  .menu-btn img {
+  .pushy-menu-btn img {
     width: 30px;
     max-width: 30px;
     margin-top: 0px;

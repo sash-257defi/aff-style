@@ -12,8 +12,8 @@
 		pushyOpenLeft = 'pushy-open-left', //css class when menu is open (left position)
 		pushyOpenRight = 'pushy-open-right', //css class when menu is open (right position)
 		siteOverlay = $('.site-overlay'), //site overlay
-		menuBtn = $('.menu-btn, .pushy-link'), //css classes to toggle the menu
-		menuBtnFocus = $('.menu-btn'), //css class to focus when menu is closed w/ esc key
+		menuBtn = $('.pushy-menu-btn, .pushy-link'), //css classes to toggle the menu
+		menuBtnFocus = $('.pushy-menu-btn'), //css class to focus when menu is closed w/ esc key
 		menuLinkFocus = $(pushy.data('focus')), //focus on link when menu is open
 		menuSpeed = 200, //jQuery fallback menu speed
 		menuWidth = pushy.width() + 'px', //jQuery fallback menu width
