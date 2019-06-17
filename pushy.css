@@ -245,31 +245,8 @@
     width: 100%;
     display: none;
     z-index: 9990;
-    padding: 15px 10px;
+    padding: 10px;
     background-color: #2A3052;
-  }
-  .mobile-logo{
-    position: fixed;
-    top: -5px;
-    left: 15px;
-    width: 230px;
-    max-width: 100%;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #f2f2f2;
-  }
-  .header-stack-title {
-    letter-spacing: -1px;
-    color: #000000;
-    font-weight: 900;
-  }
-  .header-stack-title span {
-    display: block;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #ffffff;
-    font-weight: 700;
   }
   .pushy-header {
     padding: 20px;
