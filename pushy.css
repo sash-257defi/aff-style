@@ -224,8 +224,9 @@
     outline: none;
     border: 0;
     cursor: pointer;
-    float: right;
-    margin: 0;
+    position: fixed;
+    top: 20px;
+    right: 20px;
   }
   .pushy-menu-btn:hover {
     color: #ffffff;
