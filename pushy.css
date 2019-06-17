@@ -18,10 +18,12 @@
   }
   .pushy a {
     display: block;
-    padding: 15px;
+    padding: 18px;
     text-decoration: none;
-    font-size: 14px;
+    color: #2a3052;
+    font-size: 18px;
     font-weight: normal;
+    text-decoration: none;
   }
   .pushy .check li:hover {
     background-color: #eeeeee;
