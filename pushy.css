@@ -232,6 +232,7 @@
   }
   .pushy-menu-btn:hover {
     color: #ffffff;
+    background: transparent !important;
   }
   .btn:focus, button:focus {
     outline: none;
