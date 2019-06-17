@@ -252,10 +252,8 @@
   .pushy-header {
     padding: 20px;
     font-size: 14px;
-    font-weight: 700;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    background-color: #2A3052;
     color: #222222;
     border-bottom: 1px solid #dedede;
   }
