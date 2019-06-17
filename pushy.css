@@ -264,7 +264,7 @@
       color: #ffffff;
   }
   .pushy-header #userSummary ul li a {
-      color: #ffffff;
+      color: #ffffff !important;
   }
   .pushy-header .brand-user a {
       color: #ffffff;
