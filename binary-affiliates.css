@@ -648,6 +648,14 @@ input:hover, input:focus {
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
   
+  @media screen and (max-width: 768px) {
+    #MainNav {
+      display: none;
+    }
+    .header-stack, .stack-separator {
+      display: block;
+    }
+  }
 
 /*!
  * Bootstrap Grid v4.0.0-beta.2 (https://getbootstrap.com)
