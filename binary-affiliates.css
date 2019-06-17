@@ -333,8 +333,8 @@ input:hover, input:focus {
 }
 
 #userSummary ul li {
-    color: #ffffff !important;
-    font-size: 13px !important;
+    color: #ffffff;
+    font-size: 13px;
 }
 
 /* colors */

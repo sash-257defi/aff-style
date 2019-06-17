@@ -261,7 +261,10 @@
     border-bottom: 1px solid #dedede;
   }
   .pushy-header a {
-      color: #ffffff !important;
+      color: #ffffff;
+  }
+  .pushy-header #userSummary ul li {
+      color: #ffffff;
   }
   .pushy-header #langSelect {
       margin: 30px 0;
