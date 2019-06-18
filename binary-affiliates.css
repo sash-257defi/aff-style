@@ -82,6 +82,10 @@ button:hover, .button:hover, input[type=submit]:hover {
     background-color: #F2F2F2;
 }
 
+.no-padding {
+    padding: 0 !important;
+}
+
 .binary-top-bar {
     margin: 0;
     padding: 0;
