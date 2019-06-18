@@ -88,6 +88,10 @@ button:hover, .button:hover, input[type=submit]:hover {
     text-align: right;
 }
 
+.binary-top-bar #lang {
+    margin: 0;
+}
+
 .binary-header {
     border-top: 2px solid #2A3052;
     border-bottom: 4px solid #E98024;
@@ -165,11 +169,6 @@ button:hover, .button:hover, input[type=submit]:hover {
 }
 
 .brand-header-content {
-    text-align: right;
-}
-
-.brand-user, .brand-language {
-    display: inline-block;
     text-align: right;
 }
 
