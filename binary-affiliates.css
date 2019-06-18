@@ -50,6 +50,44 @@ button:hover, .button:hover, input[type=submit]:hover {
     background-color: #14602B;
 }
 
+.primary-color {
+    color: #2A3052;
+}
+
+.primary-bg-color {
+    background-color: #2A3052;
+}
+
+.secondary-color {
+    color: #E98024
+}
+
+.secondary-bg-color {
+    background-color: #E98024;
+}
+
+.primary-color-dark {
+    color: #15212D;
+}
+
+.primary-bg-color-dark {
+    background-color: #15212D;
+}
+
+.content-inverse-color {
+    color: #FFFFFF !important;
+}
+
+.fill-bg-color {
+    background-color: #F2F2F2;
+}
+
+.binary-top-bar {
+    margin: 0;
+    padding: 5px;
+    text-align: right;
+}
+
 .binary-header {
     border-top: 2px solid #2A3052;
     border-bottom: 4px solid #E98024;
