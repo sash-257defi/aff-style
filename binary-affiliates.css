@@ -84,7 +84,7 @@ button:hover, .button:hover, input[type=submit]:hover {
 
 .binary-top-bar {
     margin: 0;
-    padding: 5px;
+    padding: 2px 0;
     text-align: right;
 }
 
