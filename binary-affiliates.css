@@ -86,33 +86,6 @@ button:hover, .button:hover, input[type=submit]:hover {
     padding: 0 !important;
 }
 
-.binary-top-bar {
-    margin: 0;
-    padding: 5px 0;
-    text-align: right;
-}
-
-.binary-top-bar #lang {
-    margin: 0;
-    font-size: 13px;
-}
-
-.binary-top-bar select {
-    font-size: 13px;
-}
-
-.binary-header {
-    border-top: 2px solid #2A3052;
-    border-bottom: 4px solid #E98024;
-    background-color: #2A3052;
-	color: #ffffff;
-}
-
-.binary-header a {
-    color: #ffffff !important;
-    text-decoration: none
-}
-
 .logo-wrapper {
     display: inline-block;
     vertical-align: middle
@@ -170,6 +143,37 @@ button:hover, .button:hover, input[type=submit]:hover {
 
 .binary-logo-text img.responsive {
     width: 90%
+}
+
+.binary-top-bar {
+    margin: 0;
+    padding: 5px 0;
+    text-align: right;
+}
+
+.binary-top-bar #lang {
+    margin: 0;
+    font-size: 13px;
+}
+
+.binary-top-bar select {
+    font-size: 13px;
+}
+
+.binary-header {
+    border-top: 2px solid #2A3052;
+    border-bottom: 4px solid #E98024;
+    background-color: #2A3052;
+	color: #ffffff;
+}
+
+.binary-header a {
+    color: #ffffff !important;
+    text-decoration: none
+}
+
+.binary-header .logo-wrapper {
+    margin-left: 20px;
 }
 
 /* custom */
