@@ -411,6 +411,22 @@ input:hover, input:focus {
     background-color: #2a3052;
 }
 
+/* stats */
+
+#stats-glance .stats-col:hover {
+    background: #e98024; /* Old browsers */
+    color: #ffffff !important;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+#stats-glance .stats-col:hover .stat-large, #stats-glance .stats-col:hover .stat-type{
+    color: #fff;
+}
+#stats-glance .stats-col:hover .stat-lower, #stats-glance .stats-col:hover a{
+    color: rgba(255,255,255,0.7);
+}
+
 .copyright p {
     font-size: 10px !important;
 }
