@@ -92,6 +92,10 @@ button:hover, .button:hover, input[type=submit]:hover {
     margin: 0;
 }
 
+.binary-top-bar select {
+    font-size: 13px;
+}
+
 .binary-header {
     border-top: 2px solid #2A3052;
     border-bottom: 4px solid #E98024;
