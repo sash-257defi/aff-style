@@ -264,6 +264,11 @@
       color: #ffffff;
       font-size: 18px;
   }
+  .pushy-header #userSummary ul li {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
   .pushy-header #userSummary ul li a {
       font-size: 18px;
       display: block;
