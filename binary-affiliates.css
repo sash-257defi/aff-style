@@ -221,7 +221,7 @@ fieldset {
     border-radius: 3px;
     overflow: visible;
     border: 0;
-    color: #000000;
+    color: #000000 !important;
     background: #F2F2F2;
 }
 
