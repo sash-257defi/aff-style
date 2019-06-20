@@ -209,6 +209,27 @@ fieldset {
     font-size: 13px;
 }
 
+#userSummary a {
+    text-decoration: none;
+    text-align: center;
+    line-height: 100%;
+    text-transform: capitalize;
+    padding: 10px 25px;
+    display: inline-block;
+    font-weight: 400;
+    font-family: inherit;
+    border-radius: 3px;
+    overflow: visible;
+    border: 0;
+    color: #000000;
+    background: #F2F2F2;
+}
+
+#userSummary a:hover {
+    text-decoration: none;
+    background: #DEDEDE;
+}
+
 #langSelect {
     margin: 0;
 }
