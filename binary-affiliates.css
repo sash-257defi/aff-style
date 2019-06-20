@@ -60,6 +60,10 @@ button:hover, .button:hover, input[type=submit]:hover {
     background-color: #14602B;
 }
 
+form.filterSet a {
+    margin-top: 10px;
+}
+
 fieldset {
     background-color: #f2f2f2;
 }
