@@ -22,6 +22,15 @@ body {
 	color: #E98024 !important;
 }
 
+a, a:visited, .pagination a {
+    color: #2A3052;
+    text-decoration: none;
+    font-weight: bold
+}
+a:hover, a:active, a:visited:hover, a:visited:active {
+    text-decoration: underline
+}
+
 .aside .section h1, #aside .section h1 {
     font-size: 22px !important;
 }
