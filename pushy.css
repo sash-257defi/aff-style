@@ -298,3 +298,10 @@
       display: block;
     }
   }
+
+  @media screen and (max-width: 360px) {
+    ##userSummary {
+      display: block;
+      visibility: visible;
+    }
+  }
