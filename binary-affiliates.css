@@ -22,7 +22,7 @@ body {
 	color: #E98024 !important;
 }
 
-.aside .section h1 {
+.aside .section h1, #aside .section h1 {
     font-size: 22px !important;
 }
 
