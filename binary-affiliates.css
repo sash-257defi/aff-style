@@ -35,7 +35,7 @@ a:hover, a:active, a:visited:hover, a:visited:active {
     font-size: 22px !important;
 }
 
-button, .button, input[type=submit] {
+button, .button, a.button, input[type=submit] {
     display: inline-block;
     text-align: center;
     font-size: 18px;
