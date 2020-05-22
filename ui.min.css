@@ -2431,6 +2431,7 @@ button, .button, a.button, input[type=submit] {
     color: #ffffff !important;
     border-radius: 4px;
     background-color: #ff444f !important;
+    border: none !important;
     text-decoration: none;
     cursor: pointer;
     outline: none;
@@ -2729,6 +2730,9 @@ fieldset dd a:hover {
 table.report th, table.report td {
     padding: 15px 20px;
     font-size: 14px;
+}
+select:hover {
+    border: none !important;
 }
 /* infobar */
 .pageDesc {
