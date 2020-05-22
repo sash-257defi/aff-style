@@ -2731,7 +2731,11 @@ table.report th, table.report td {
     padding: 15px 20px;
     font-size: 14px;
 }
-select:hover {
+select, input[type="text"] {
+    border: solid 1px #e8e8e8 !important;
+    transition: all 0.25s;
+}
+select:hover, input[type="text"]:hover {
     border: 1px solid #999999 !important;
 }
 /* infobar */
