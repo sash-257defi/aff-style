@@ -1,62 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,600,700&display=swap&subset=cyrillic,vietnamese);
 body {
-    font-family: Roboto, Helvetica, Arial, sans-serif !important;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
     line-height: 1.2;
     color: #000;
-    font-weight: 400;
+    font-weight: normal;
 }
 
 .pagination a,
 a,
 a:visited {
-    color: #2a3052;
+    color: #000000;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: normal;
 }
 a:active,
 a:hover,
 a:visited:active,
 a:visited:hover {
     text-decoration: underline;
+    color: #ff444f;
 }
 #aside .section h1,
 .aside .section h1 {
     font-size: 22px !important;
 }
-.button,
-a.button,
-button,
-input[type="submit"] {
-    display: inline-block;
-    text-align: center;
-    font-size: 18px;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    background: #2e8836;
-    border: none;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -khtml-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 3px;
-    font-weight: 400;
-    padding: 10px 25px;
-    margin: 5px 0;
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-    outline: 0;
-}
-.button:hover,
-button:hover,
-input[type="submit"]:hover {
-    background-color: #14602b;
-}
 form.filterSet a {
     margin-top: 10px;
-}
-fieldset {
-    background-color: #f2f2f2;
 }
 #frmSignup {
     color: #000;
@@ -263,6 +233,7 @@ ul.bullet {
 ul.bullet li {
     list-style-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='18px' height='18px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath fill='%23e98024' d='M12,17.5A5.5,5.5,0,1,1,17.5,12,5.507,5.507,0,0,1,12,17.5Zm0-9A3.5,3.5,0,1,0,15.5,12,3.5,3.5,0,0,0,12,8.5Z'/%3E%3C/svg%3E");
 }
+/*
 #MainNav {
     display: flex;
     justify-content: center;
@@ -304,7 +275,7 @@ ul.bullet li {
 #MainNav ul li a:hover {
     text-decoration: none;
 }
-
+*/
 #page_login {
     background-image: none;
     background-color: #fff;
@@ -351,16 +322,18 @@ input:hover {
 }
 .home-table-links a,
 .loginLinks a {
-    color: #2a3052 !important;
+    color: #000000 !important;
     text-decoration: none;
-    font-weight: 700 !important;
+    font-weight: normal !important;
     text-align: center;
+    font-size: 14px;
 }
 .home-table-links a:hover,
 .loginLinks a:hover {
-    color: #2a3052 !important;
+    color: #ff444f !important;
     text-decoration: underline;
 }
+/*
 #aside .nav .section li:hover {
     background: #2a3052;
     color: #fff;
@@ -374,6 +347,7 @@ input:hover {
     color: #2a3052;
     text-transform: none;
 }
+*/
 .ticketList .ticketItem.status_resolved .subject {
     background-color: #2a3052;
 }
@@ -2695,7 +2669,7 @@ p.stat-type {
 .home-table-links a {
     color: #000000;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: normal !important;
     text-align: center;
 }
 .home-table-links a:hover {
