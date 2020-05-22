@@ -2732,7 +2732,7 @@ table.report th, table.report td {
     font-size: 14px;
 }
 select:hover {
-    border: none !important;
+    border: 1px solid #f2f3f4 !important;
 }
 /* infobar */
 .pageDesc {
