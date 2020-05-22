@@ -2707,16 +2707,21 @@ em {
 }
 
 /* widgets */
-fieldset * {
-    font-weight: normal !important;
-    color: #000000;
-    font-size: 14px;
+fieldset {
+    border: 1px solid #e6e9e9 !important;
+    background: #ffffff;
+    border-radius: 4px !important;
 }
 fieldset legend {
-    font-weight: 600 !important;
-    background-color: #f2f3f4;
-    border: none;
-    padding-top: 30px;
+    background-color: #ffffff !important;
+    padding: 0 5px !important;
+    margin: 0 7px !important;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000 !important;
+}
+fieldset * {
+    font-weight: normal;
     color: #000000;
     font-size: 14px;
 }
@@ -2738,11 +2743,14 @@ fieldset dd a:hover {
     color: #ff444f;
     text-decoration: underline !important;
 }
-
+.expandArea {
+    background: #ffffff;
+}
 .expandArea .expandLegend {
     padding-left: 25px;
     padding-top: 10px;
     cursor: pointer;
+    background: #ffffff !important;
 }
 table.report th, table.report td {
     padding: 15px 20px;
@@ -2752,13 +2760,13 @@ table.report th, table.report td {
 .pageDesc {
     font-size: 14px;
 }
-fieldset {
-    border: 1px solid #e6e9e9 !important;
-    background: #ffffff;
-    border-radius: 4px !important;
+.downloadURL input {
+    background: #f2f3f4 !important;
+    border: 0px solid #cccccc;
+    transition: all 0.15s;
 }
-fieldset legend {
-    background-color: #ffffff !important;
-    padding: 0 10px !important;
-    margin: 0 10px !important;
+.downloadURL input:hover {
+    background: #e8e8e8 !important;
+    transition: all 0.15s;
+    color: #000000;
 }
