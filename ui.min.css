@@ -2753,7 +2753,7 @@ select:hover, input[type="text"]:hover {
     color: #000000;
 }
 /* Login */
-.login-btn input[type="button"] {
+.binary-button {
     display: inline-block;
     text-align: center;
     font-size: 18px;
