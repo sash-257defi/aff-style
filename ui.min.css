@@ -2758,7 +2758,7 @@ select:hover, input[type="text"]:hover {
     text-align: center;
     font-size: 18px;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
-    background: #2E8836;
+    background: #2E8836 !important;
     border: none;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
