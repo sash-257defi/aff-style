@@ -2774,5 +2774,5 @@ select:hover, input[type="text"]:hover {
     outline: none;
 }
 .binary-button:hover {
-    background-color: #14602B;
+    background-color: #14602B !important;
 }
