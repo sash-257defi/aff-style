@@ -2401,7 +2401,7 @@ button, .button, a.button, input[type=submit] {
 button:hover, .button:hover, input[type=submit]:hover {
     background-color: #d43e47 !important;
 }
-.button-secondary, a.button-secondary {
+.button-secondary, a.button-secondary, .header-logout a {
     display: inline-block;
     padding: 10px 16px !important;
     font-size: 14px !important;
@@ -2417,7 +2417,7 @@ button:hover, .button:hover, input[type=submit]:hover {
     cursor: pointer;
     outline: none;
 }
-.button-secondary:hover {
+.button-secondary:hover, .header-logout a:hover {
     color: #ffffff;
 }
 .logo {
