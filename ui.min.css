@@ -2177,6 +2177,9 @@ button:focus {
     #userSummary {
         display: block;
     }
+    .header-logout a {
+        margin-top: 30px;
+    }
 }
 
 
