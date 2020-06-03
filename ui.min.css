@@ -2177,9 +2177,6 @@ button:focus {
     #userSummary {
         display: block;
     }
-    .header-logout a {
-        margin-top: 30px;
-    }
 }
 
 
@@ -2994,6 +2991,9 @@ h2 {
     }
     .login-divider {
         height: 1px;
+    }
+    .header-logout a {
+        margin-top: 50px;
     }
 }
 /* Overwrite */
