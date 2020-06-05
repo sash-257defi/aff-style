@@ -3312,6 +3312,11 @@ em {
     max-width: 480px;
     margin: 0 auto;
 }
+.change-pass-box-content {
+    width: 420px;
+    max-width: 100%;
+    display: grid;
+}
 @media screen and (max-width: 768px) {
     .pass-box {
         padding: 48px;
@@ -3321,5 +3326,16 @@ em {
     .pass-box-content {
         grid-template-columns: 1fr;
         gap: 48px;
+    }
+    .change-pass-box-content {
+        width: 420px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .change-pass-box-content {
+        width: auto;
+    }
+    .change-pass-box {
+        padding: 30px;
     }
 }
