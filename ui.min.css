@@ -3278,10 +3278,45 @@ em {
 .deriv-faq strong {
     color: #000000;
 }
-
-/* Pass chnage */
-.pass-reset-box {
-    display: block;
-    margin: 30px auto;
-    Max-width: 500px;
+/* Pass pages */
+.vgrid {
+    min-height: 70vh;
+    display: grid;
+    align-items: center;
+}
+.pass-box {
+    border-radius: 4px;
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.08), 0 0 16px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    padding: 48px;
+    max-width: 958px;
+    margin: 0 auto;
+}
+.pass-box-content {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 48px;
+}
+.pass-form {
+    display: grid;
+    text-align: center;
+}
+.change-pass-box {
+    border-radius: 4px;
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.08), 0 0 16px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    padding: 48px;
+    max-width:480px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+    .pass-box {
+        padding: 48px;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .pass-box-content {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
 }
