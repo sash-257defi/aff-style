@@ -3279,6 +3279,9 @@ em {
     color: #000000;
 }
 /* Pass pages */
+.userMsg {
+    font-size: 14px;
+}
 .vgrid {
     min-height: 70vh;
     display: grid;
