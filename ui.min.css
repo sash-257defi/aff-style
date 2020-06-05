@@ -3309,8 +3309,7 @@ em {
     box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.08), 0 0 16px 0 rgba(0, 0, 0, 0.08);
     background-color: #ffffff;
     padding: 48px;
-    width: 480px;
-    max-width:480px;
+    max-width: 480px;
     margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
