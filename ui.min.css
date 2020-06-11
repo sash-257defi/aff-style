@@ -3342,7 +3342,7 @@ em {
 
 /* Signup */
 #frmSignup fieldset {
-    border: none;
+    border: none !important;
     margin: 0;
 }
 .signup-box {
