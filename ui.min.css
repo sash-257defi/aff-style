@@ -3341,6 +3341,10 @@ em {
 }
 
 /* Signup */
+#frmSignup fieldset {
+    border: none;
+    margin: 0;
+}
 .signup-box {
     width: 100%;
     /* max-width: 420px; */
